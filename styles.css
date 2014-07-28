@@ -1,0 +1,48 @@
+
+body {
+font-size: 18px;
+font-weight: 900;
+color:#ecf0f1;
+background-color:#2574A9;
+}
+
+
+
+#myCanvas{
+  border: 5px solid #ecf0f1;;
+  border-radius: 20px;
+  width:99%;
+  margin:0 auto;
+
+}
+
+
+.topButton{
+display:inline;
+
+}
+
+#alertText{
+
+display:inline;
+font-size: 30px;
+font-weight: 900;
+margin-left: 42%;
+
+
+}
+
+#hitScoreText{
+
+display:inline;
+font-size: 30px;
+font-weight: 900;
+float:right;
+
+}
+
+#inputCanvas{
+  position:absolute;
+  border: 5px solid #ecf0f1;;
+  border-radius: 20px;
+}
