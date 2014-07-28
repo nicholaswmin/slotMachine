@@ -83,11 +83,11 @@ for(var i = 0; i < rasterList.length; i++) {
   rasterList[i].scale(scalingCoefficient);
   rasterList[i].position.x = column1XPosition;
   if (i===0){
-  	rasterList[i].position.y = 0;
+    rasterList[i].position.y = 0;
   }
   else {
-  	 console.log(increment);
-  	rasterList[i].position.y = rasterList[i].bounds["height"]*increment;
+     console.log(increment);
+    rasterList[i].position.y = rasterList[i].bounds["height"]*increment;
   }
 
 
@@ -122,10 +122,10 @@ for(var i = 0; i < rasterList2.length; i++) {
   rasterList2[i].scale(scalingCoefficient);
   rasterList2[i].position.x = column2XPosition;
   if (i===0){
-  	rasterList2[i].position.y = 0;
+    rasterList2[i].position.y = 0;
   }
   else {
-  	rasterList2[i].position.y = rasterList2[i].bounds["height"]*increment2;
+    rasterList2[i].position.y = rasterList2[i].bounds["height"]*increment2;
   }
 
 
@@ -160,10 +160,10 @@ for(var i = 0; i < rasterList3.length; i++) {
   rasterList3[i].scale(scalingCoefficient);
   rasterList3[i].position.x = column3XPosition;
   if (i===0){
-  	rasterList3[i].position.y = 0;
+    rasterList3[i].position.y = 0;
   }
   else {
-  	rasterList3[i].position.y = rasterList3[i].bounds["height"]*increment3;
+    rasterList3[i].position.y = rasterList3[i].bounds["height"]*increment3;
   }
 
 
@@ -220,11 +220,11 @@ var groupLength = group5.children.length;
 
 var stopNumber = 0;
 for (var i = 0; i < groupLength; i++) {
-	if (i==0){
-	stopNumber = group.bounds["height"]/groupLength;
+  if (i==0){
+  stopNumber = group.bounds["height"]/groupLength;
     }
     stopArray.push(stopNumber);
-	stopNumber = stopNumber+(group.bounds["height"]/groupLength);
+  stopNumber = stopNumber+(group.bounds["height"]/groupLength);
 };
 
 
@@ -242,6 +242,7 @@ var stopCoefficient3 = 0;
 var stop1 = stopArray[Math.floor(Math.random() * stopArray.length)];
 var stop2 = stopArray[Math.floor(Math.random() * stopArray.length)];
 var stop3 = stopArray[Math.floor(Math.random() * stopArray.length)];
+
 
 stop1 = stop1/2;
 stop2 = stop2/2;
@@ -271,7 +272,7 @@ var group1TrueY;
 var group2TrueY;
 
 
-if (stopCoefficient !==stop1){
+if (stopCoefficient <stop1){
 
 group.position.y += spinCoefficient; 
 group2.position.y +=  spinCoefficient;
@@ -289,7 +290,7 @@ group2.position.y = (-group2.bounds["height"]/2);
 if (group2TrueY==0){
 group.position.y = (-group.bounds["height"]/2);
 }
-stopCoefficient = stopCoefficient+1;
+stopCoefficient = stopCoefficient+2;
 
 
 
@@ -308,7 +309,7 @@ var group3TrueY;
 var group4TrueY;
 
 
-if (stopCoefficient2 !==stop2){
+if (stopCoefficient2 <stop2){
 
 group3.position.y += spinCoefficient; 
 group4.position.y +=  spinCoefficient;
@@ -329,7 +330,7 @@ if (group4TrueY==0){
 group3.position.y = (-group3.bounds["height"]/2);
 }
 
-stopCoefficient2 = stopCoefficient2+1;
+stopCoefficient2 = stopCoefficient2+2;
 
 
 }
@@ -347,7 +348,7 @@ var group5TrueY;
 var group6TrueY;
 
 
-if (stopCoefficient3 !==stop3){
+if (stopCoefficient3 <stop3){
 
 group5.position.y += spinCoefficient; 
 group6.position.y +=  spinCoefficient;
@@ -367,7 +368,7 @@ group6.position.y = (-group6.bounds["height"]/2);
 if (group6TrueY==0){
 group5.position.y = (-group5.bounds["height"]/2);
 }
-stopCoefficient3 = stopCoefficient3+1;
+stopCoefficient3 = stopCoefficient3+2;
 
 
 }
@@ -495,9 +496,9 @@ for (var i = 0; i < resultArray.length; i++) {
     middleLineResults.push(resultArray[i].name);
   }
 
-	if(resultArray[i].position===500){
-		bottomLineResults.push(resultArray[i].name);
-	}
+  if(resultArray[i].position===500){
+    bottomLineResults.push(resultArray[i].name);
+  }
 };
 
 console.log("The top line results: "+topLineResults);
