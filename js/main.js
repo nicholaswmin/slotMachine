@@ -255,7 +255,7 @@ console.log(stop1,stop2,stop3);
 
 
 
-var spinCoefficient = 50;
+var spinCoefficient = 100;
 
 
 
