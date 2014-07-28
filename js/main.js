@@ -243,6 +243,9 @@ var stop1 = stopArray[Math.floor(Math.random() * stopArray.length)];
 var stop2 = stopArray[Math.floor(Math.random() * stopArray.length)];
 var stop3 = stopArray[Math.floor(Math.random() * stopArray.length)];
 
+stop1 = stop1/2;
+stop2 = stop2/2;
+stop3 = stop3/2;
 
 
 var called = true;
