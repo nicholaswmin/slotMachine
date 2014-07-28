@@ -268,7 +268,7 @@ var group1TrueY;
 var group2TrueY;
 
 
-if (stopCoefficient !==stop1/3){
+if (stopCoefficient !==(stop1/3)){
 
 group.position.y += spinCoefficient; 
 group2.position.y +=  spinCoefficient;
@@ -305,7 +305,7 @@ var group3TrueY;
 var group4TrueY;
 
 
-if (stopCoefficient2 !==stop2/3){
+if (stopCoefficient2 !==(stop2/3)){
 
 group3.position.y += spinCoefficient; 
 group4.position.y +=  spinCoefficient;
@@ -344,7 +344,7 @@ var group5TrueY;
 var group6TrueY;
 
 
-if (stopCoefficient3 !==stop3/3){
+if (stopCoefficient3 !==(stop3/3)){
 
 group5.position.y += spinCoefficient; 
 group6.position.y +=  spinCoefficient;
