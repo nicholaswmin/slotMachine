@@ -26,7 +26,7 @@ paper.setup(canvas);
 
 
 
-$( "#spinButton" ).click(function() {
+$( "#spinBtn" ).click(function() {
 spin();
 
 });
