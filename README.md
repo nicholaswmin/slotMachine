@@ -1,22 +1,50 @@
 SlotMachine.js
-=============
+=========
 
-A slot machine implementantion in HTML5 using Canvas, Paper.js and lots of arrays
+Simple HTML5/Canvas slot machine implementation
 
-This app uses loops to scour the HTML document for image tags. 
-Those image tags fill 3 different columns(the Fruits).
-
-The app is supposed to be Plug+Play - It generates the appropriate values to function on-the-fly using the image tag dimensions,alt-text and src.
-
-The spinning happens using the native JS pseudorandom generator Math.random().
-
-You can view the results in the console, I already log them.
-
-Use js/main.js to make changes. All custom JS resides there.
+  - Uses Paper.js for rendering through Canvas
+  - Plug+Play  - define some images in index.html and let it roll
+  - Uses Math.Random() to generate a pseudorandom seed.
 
 
-This readme needs some more info
 
-Property of Opium Works Digital LTD
+[Demo] 
+----
+
+
+----
+Tech used
+-----------
+
+
+* [Paper.js] - pretty neat Canvas vector graphics library
+
+
+Changing the fruit images
+--------------
+
+```sh
+Some images are already defined in index.html. Change their src's  or add more.
+Pay attention to the image id's/classes. Make sure you match them
+```
+
+That's cool but where are the results logged?
+--------------
+
+```sh
+In the console - duh
+```
+
+License
+----
+
 Proprietary Software
+* Property of OpiumWorks Digital LTD
+* Author: Nicholas Kyriakides
+
+
+
+
+[Demo]:https://github.com/nicholaswmin/slotMachine
 
