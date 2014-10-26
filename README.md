@@ -10,7 +10,9 @@ The app is supposed to be Plug+Play - It generates the appropriate values to fun
 
 The spinning happens using the native JS pseudorandom generator Math.random().
 
+You can view the results in the console, I already log them.
 
+Use js/main.js to make changes. All custom JS resides there.
 
 
 This readme needs some more info

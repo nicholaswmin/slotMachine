@@ -506,7 +506,6 @@ console.log("The middle line results: "+middleLineResults);
 console.log("The bottom line results: "+bottomLineResults);
 if (middleLineResults[0]!=middleLineResults[1]){
   failSound.play();
-  window.open('http://www.youtube.com/watch?v=gPpOIcRFY50', '_blank');
 }
 
 
