@@ -86,7 +86,6 @@ for(var i = 0; i < rasterList.length; i++) {
     rasterList[i].position.y = 0;
   }
   else {
-     console.log(increment);
     rasterList[i].position.y = rasterList[i].bounds["height"]*increment;
   }
 

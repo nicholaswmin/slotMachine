@@ -46,5 +46,5 @@ Proprietary Software
 
 
 
-[Demo]:https://github.com/nicholaswmin/slotMachine
+[Demo]:http://nicholaswmin.github.io/slotMachine
 
