@@ -474,6 +474,11 @@ window.onload = function() {
         console.log("The top line results: " + topLineResults);
         console.log("The middle line results: " + middleLineResults);
         console.log("The bottom line results: " + bottomLineResults);
+
+        setTimeout(function(){
+          alert('Results are in the console');
+        },1200)
+
         if (middleLineResults[0] != middleLineResults[1]) {
             failSound.play();
         }

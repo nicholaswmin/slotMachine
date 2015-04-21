@@ -1,47 +1,68 @@
 
 body {
-font-size: 12px;
-font-weight: 900;
-color:#ecf0f1;
-background-color:#2c3e50;
-font-family: 'Open Sans', sans-serif;
+	height:100vh;
+	margin:0;
+	font-size: 12px;
+	font-weight: 900;
+	color:#333;
+	background-color:#EEE;
+	background-image:url('http://www.flatvsrealism.com/images/char2.png');
+	background-size:auto 100%;
+	background-position:right;
+	background-repeat:no-repeat;
+	font-family: 'Open Sans', sans-serif;
 }
 
+h1,h2,h3,h4,h5{
+	margin:2px;
+}
 
+.darkenFilter{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.2);
+	z-index:-1;
+}
+
+.machine{
+	width:60%;
+	margin:0 auto;
+	box-shadow:-1px -1px 1px 1px #aaa;
+	background-color:#fff;
+}
 
 #myCanvas{
-  border: 5px solid #ecf0f1;
-  border-radius: 20px;
-  width:60%;
-  height:60%;
-  margin: 0 auto;
-  background-color: white;
   display:block;
+  width:100%;
+  height:100%;
+}
 
+.machine .machineHeader{
+	padding:14px;
+	background-color:#D50000;
+	color:#fff;
+}
+
+.machine .machineHeader a{	
+	color:#eee;
+	font-style:italic;
 }
 
 #spinBtn{
-
-	background-color: #34495e;
-	position: relative;
-	width: 200px;
-	height: 50px;
-
-	margin: 0 auto;
-	margin-top: 1%;
-
-
-	border: 2px solid white;
-	border-radius: 20px;
-	padding-top: 24px;
-
-	color: white;
-	font-size: 17px;
-	text-align: center;
-
-	cursor: pointer;
+	padding:20px 12px;
+	background-color:#666;
+	color:#eee;
+	font-size:24px;
+	text-align:center;
+	cursor:pointer;
+	transition: 0.5s;
 }
 
+#spinBtn:hover{
+	background-color:#333;
+	color:#fff;
+}
 
 
 
