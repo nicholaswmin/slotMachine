@@ -5,7 +5,8 @@
   - Plug+Play  - define your own fruit images in index.html 
   - Uses `Math.Random()` to generate a seed.
 
-#### [Demo] 
+####See it live
+[Demo] 
 
 
 ##### Tech used
@@ -35,6 +36,6 @@ Author: Nicholas Kyriakides(@nicholaswmin)
 
 
 
-[Demo Here]:http://nicholaswmin.github.io/slotMachine
+[Demo]:http://nicholaswmin.github.io/slotMachine
 [Paper.js]:http://paperjs.org
 [jQuery]:http://jquery.com
