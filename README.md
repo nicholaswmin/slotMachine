@@ -3,7 +3,7 @@
 --------------
   - Uses Paper.js - An HTML5 canvas wrapper for easier shape manipulation
   - Plug+Play  - define your own fruit images in index.html 
-  - Uses Math.Random() to generate a pseudorandom seed.
+  - Uses `Math.Random()` to generate a seed.
 
 #### [Demo Here] 
 
@@ -25,13 +25,11 @@
  - In the console
 
 
-----------
-
-
-License
+##### License
 ----
-MIT
-Author: Nicholas Kyriakides
+**MIT**
+
+Author: Nicholas Kyriakides(@nicholaswmin)
 
 
 
