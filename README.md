@@ -11,8 +11,8 @@
 
 ##### Tech used
 
-* [Paper.js] - pretty neat Canvas vector graphics library
-* [jQuery] - Not really needed - but it's there
+* [Paper.js]
+* [jQuery]
 
 
 ##### Changing the fruit images
