@@ -1,7 +1,7 @@
 ### SlotMachine.js
-##### Simple HTML5/Canvas slot machine 
+##### An extemely shitty slot-machine
 
-##### Note: The code is hardly formatted, follows no structure or best practices standards whatsoever. Clone and use at your own risk. Using this to make an actual slot machine that fares in the real-world is irresponsible at best
+##### Just don't look at the code, it's embarrasing at best
 
 --------------
   - Uses Paper.js - An HTML5 canvas wrapper for easier shape manipulation
