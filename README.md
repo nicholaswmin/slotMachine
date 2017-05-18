@@ -1,14 +1,12 @@
 ### SlotMachine.js
-##### An extemely shitty slot-machine
-
-##### Just don't look at the code, it's embarrasing at best
 
 --------------
+
   - Uses Paper.js - An HTML5 canvas wrapper for easier shape manipulation
   - Plug+Play  - define your own fruit images in index.html 
   - Uses `Math.Random()` to generate a seed.
 
-####See it live
+#### See it live
 [Demo] 
 
 
