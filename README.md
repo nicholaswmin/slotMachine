@@ -6,9 +6,6 @@
   - Plug+Play  - define your own fruit images in index.html 
   - Uses `Math.Random()` to generate a seed.
 
-#### See it live
-[Demo] 
-
 
 ##### Tech used
 
