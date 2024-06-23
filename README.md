@@ -11,7 +11,7 @@ know how to work with Arrays.
 
 Enjoy - this is my magnum opus. 
 
-Demo: nicholaswmin.github.io/slotMachine
+Demo: [nicholaswmin.github.io/slotMachine](nicholaswmin.github.io/slotMachine)
 
 
 ### SlotMachine.js
