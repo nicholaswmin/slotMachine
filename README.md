@@ -1,3 +1,8 @@
+This was written 15 (maybe 13-ish?) years ago when I started coding, I think.
+
+Enjoy.
+
+
 ### SlotMachine.js
 
 --------------
