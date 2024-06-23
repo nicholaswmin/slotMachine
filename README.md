@@ -1,15 +1,17 @@
 This was written 15 (maybe 13-ish?) years ago when I started dabbling in JavaScript, I think.
 
 This is by far the most badly written and ridiculous piece of shit I've ever written.
-It's also the most starred.
+It's also the most starred. 
+There's also about 8 forks (wow, 8!) of it, 
+most probably by people who didn't see the source code yet 😂.
 
 Unfortunately it seems I've fixed the code style out of shame about a decade ago.
 
 The original implementation was doing some funny weird shit with globals, 
-trying to emulate an array-like list or something because I didn't 
+trying to emulate an array-like list or something, because I didn't really know
 know how to work with Arrays.
 
-Enjoy - this is my magnum opus. 
+Enjoy - this is my magnum opus. I cannot believe it's running.
 
 Demo: [nicholaswmin.github.io/slotMachine](https://nicholaswmin.github.io/slotMachine)
 
