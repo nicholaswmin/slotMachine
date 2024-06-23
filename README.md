@@ -1,6 +1,10 @@
-This was written 15 (maybe 13-ish?) years ago when I started coding, I think.
+This was written 15 (maybe 13-ish?) years ago when I started dabbling in JavaScript, I think.
 
-Enjoy.
+This is by far the most badly written and ridiculous project I've ever laid my hands on.  
+It's also the most starred.
+
+Enjoy - this is my magnum opus. 
+ 
 
 
 ### SlotMachine.js
