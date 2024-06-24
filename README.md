@@ -7,14 +7,15 @@ most probably by people who thought they could extend it until they saw the sour
 
 Unfortunately it seems I've fixed the code style out of shame about a decade ago.
 
-The original implementation was doing some funny weird shit with globals, 
-trying to emulate an array-like list or something, because I didn't really know
-know how to work with Arrays.
+That's a damn shame because the original implementation was doing some really 
+bizarre shit with globals, trying to emulate an array-like list or something, 
+because I didn't really know know how to work with Arrays.
 
-Just to make things worse for the next person who decides to fork this, 
-I've changed the license - this is my only public project with a paid license.
+Just to make things even worse for the next person who decides to fork this
+piece of crap - I've changed the license - this is now a closed-source, $ 1000-a-pop 
+piece of software.
 
-You have to pay me $1000 dollars to use this in any project.
+Not open source.
 
 Enjoy - this is my magnum opus.
 
