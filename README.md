@@ -2,22 +2,13 @@ This was written 15 (maybe 13-ish?) years ago when I started dabbling in JavaScr
 
 This is by far the most badly written and ridiculous piece of shit I've ever written.
 It's also the most starred. 
-There's also about 8 forks (wow, 8!) of it, 
+There's also about 8 forks of it, 
 most probably by people who thought they could extend it until they saw the source code.
-
-Unfortunately it seems I've fixed the code style out of shame about a decade ago.
 
 That's a damn shame because the original implementation was doing some really 
 bizarre shit with globals, trying to emulate an array-like list or something, 
 because I didn't really know know how to work with Arrays.
-
-Just to make things even worse for the next person who decides to fork this
-piece of crap - I've changed the license - this is now a closed-source, $ 1000-a-pop 
-piece of software.
-
-Not open source.
-
-Enjoy - this is my magnum opus.
+Enjoy
 
 Demo: [nicholaswmin.github.io/slotMachine](https://nicholaswmin.github.io/slotMachine)
 
@@ -54,9 +45,6 @@ Demo: [nicholaswmin.github.io/slotMachine](https://nicholaswmin.github.io/slotMa
 All Rights Reserved
 
 Copyright (c) Nicholas Kyriakides 
-
-THE CONTENTS OF THIS PROJECT ARE PROPRIETARY AND CONFIDENTIAL. 😂😂
-UNAUTHORIZED COPYING, TRANSFERRING OR REPRODUCTION OF THE CONTENTS OF THIS PROJECT, VIA ANY MEDIUM IS STRICTLY PROHIBITED.
 
 The receipt or possession of the source code and/or any parts thereof does not convey or imply any right to use them
 for any purpose other than the purpose for which they were provided to you.
